@@ -3,13 +3,13 @@ Pod::Spec.new do |s|
 
   s.name         = "ZJHUIViewFrameExtention"
   s.version      = "0.0.1"
-  s.summary      = "A short description of ZJHUIViewFrameExtention."
+  s.summary      = "A Test For podspec File"
 
   s.description  = <<-DESC
-                GOOD WORK!
+                GOOD WORK! GOOD WORK! GOOD WORK! GOOD WORK! GOOD WORK! GOOD WORK!
                    DESC
 
-  s.homepage     = "http://EXAMPLE/ZJHUIViewFrameExtention"
+  s.homepage     = "https://github.com/zhoujihang/PodSpecDemo.git"
   s.license      = "MIT"
   s.author       = { "zhoujihang" => "zhoujihang@ayibang.com" }
   s.platform     = :ios, "5.0"
