@@ -15,7 +15,7 @@
 		4704F0031C9984BC00650402 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4704F0011C9984BC00650402 /* LaunchScreen.storyboard */; };
 		4704F00E1C9984BC00650402 /* PodSpecDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704F00D1C9984BC00650402 /* PodSpecDemoTests.m */; };
 		4704F0191C9984BC00650402 /* PodSpecDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704F0181C9984BC00650402 /* PodSpecDemoUITests.m */; };
-		4704F02F1C9986F200650402 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704F02E1C9986F200650402 /* UIView+Extension.m */; };
+		4704F0371C9A874400650402 /* UIView+ZJHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 4704F0361C9A874400650402 /* UIView+ZJHExtension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,8 +52,8 @@
 		4704F0141C9984BC00650402 /* PodSpecDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PodSpecDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4704F0181C9984BC00650402 /* PodSpecDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PodSpecDemoUITests.m; sourceTree = "<group>"; };
 		4704F01A1C9984BC00650402 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		4704F02D1C9986F200650402 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
-		4704F02E1C9986F200650402 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		4704F0351C9A874400650402 /* UIView+ZJHExtension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+ZJHExtension.h"; sourceTree = "<group>"; };
+		4704F0361C9A874400650402 /* UIView+ZJHExtension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+ZJHExtension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +84,7 @@
 		4704EFE71C9984BB00650402 = {
 			isa = PBXGroup;
 			children = (
-				4704F02C1C9986F200650402 /* UIViewFrameExtention */,
+				4704F0341C9A874400650402 /* ZJHUIViewFrameExtention */,
 				4704EFF21C9984BC00650402 /* PodSpecDemo */,
 				4704F00C1C9984BC00650402 /* PodSpecDemoTests */,
 				4704F0171C9984BC00650402 /* PodSpecDemoUITests */,
@@ -144,14 +144,14 @@
 			path = PodSpecDemoUITests;
 			sourceTree = "<group>";
 		};
-		4704F02C1C9986F200650402 /* UIViewFrameExtention */ = {
+		4704F0341C9A874400650402 /* ZJHUIViewFrameExtention */ = {
 			isa = PBXGroup;
 			children = (
-				4704F02D1C9986F200650402 /* UIView+Extension.h */,
-				4704F02E1C9986F200650402 /* UIView+Extension.m */,
+				4704F0351C9A874400650402 /* UIView+ZJHExtension.h */,
+				4704F0361C9A874400650402 /* UIView+ZJHExtension.m */,
 			);
-			name = UIViewFrameExtention;
-			path = ../UIViewFrameExtention;
+			name = ZJHUIViewFrameExtention;
+			path = ../ZJHUIViewFrameExtention;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -285,8 +285,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4704EFFB1C9984BC00650402 /* ViewController.m in Sources */,
+				4704F0371C9A874400650402 /* UIView+ZJHExtension.m in Sources */,
 				4704EFF81C9984BC00650402 /* AppDelegate.m in Sources */,
-				4704F02F1C9986F200650402 /* UIView+Extension.m in Sources */,
 				4704EFF51C9984BC00650402 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
